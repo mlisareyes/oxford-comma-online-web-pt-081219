@@ -1,5 +1,4 @@
 def oxford_comma(array)
   "kiwi"
-  array.join(", ")
-
+  "#{array[0..-2].join(", ")} and #{array.last}"
 end
