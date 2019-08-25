@@ -7,9 +7,3 @@ def oxford_comma(array)
     "#{array[0..-2].join(", ")}, and #{array.last}"
   end
 end
-
-#array
-#list the array
-#in
-
-#"#{array[0..-2].join(", ")}, and #{array.last}"
